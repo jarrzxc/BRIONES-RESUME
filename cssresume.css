@@ -1,0 +1,212 @@
+
+#body{
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+*{
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+#page{
+background-color: white;
+height: 841px;
+width : 700px;
+margin : 0 auto ;
+margin-top: 49;
+box-shadow: 
+5px 5px 10px 3px #a6a6a6,
+-5px -5px 10px 3px #a6a6a6,
+5px -5px 10px 3px #a6a6a6,
+-5px 5px 10px 3px #a6a6a6;
+border-radius: 10px;
+}
+
+#imageCircle{
+
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: 20px auto;
+  background-image: url(download.jpeg);
+  background-size: 145px 150px;
+}
+
+
+#imageCircle:hover{
+  border:6px solid #6d695c;
+}
+
+#sidebar{
+  position: absolute;
+  height : 841px;
+  width: 300px;
+  float : left;
+  background-color: #002244;
+  padding: 20;
+  border-radius: 10px;
+}
+#nameDetails{
+text-align: center;
+  margin: -10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#name{
+  text-align: center;
+  font-family: verdana;
+  color : white;
+  line-height: 50px;  
+  font-size: 25px;
+  font-style: initial;
+}
+#profile{
+  margin: 30px auto;
+  text-align: center;
+  font-family: verdana;
+  color : white;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+#contact{
+text-align:center;
+position: relative;
+top:35px;
+margin: auto 20px;
+width: 220px;
+height: 100px;
+font-family: 'Raleway', sans-serif;
+
+}
+
+#contact .phone{
+margin: 10px auto;
+
+}
+
+
+#contact .phone span:nth-child(2){
+margin: auto 15px;
+} 
+
+#contact .email span:nth-child(2){
+margin: auto 15px;
+} 
+
+#profileOverview{
+  text-align: center;
+  margin:50px auto;
+  width: 220px;
+  height: 200px;
+  color: white;
+  font-size: 25px;
+}
+#profileOverview span:nth-child(2){
+  margin: auto 20px;
+}
+#profileOverview p{
+  margin: 10px 2px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#mbody{
+  
+  float:right;
+  position: relative;
+  margin: 25px auto;
+}
+
+.education{
+  position: relative;
+  box-shadow: 
+  1px 1px 5px 1px #002244,
+  -1px -1px 5px 1px #002244;
+  margin : 10px 20px;
+  font-size: 30px;
+  width: 350px;
+}
+
+.education .title{
+  width: 350px;
+
+}
+.education span:nth-child(2){
+  margin: auto 15px;
+}
+
+.education .timeline{
+  position: relative;
+  margin:5px 5px; 
+}
+
+.education .timeline .line{
+  position: absolute;
+  height: 210px;
+  border-left: 3px solid #6d695c;;
+  margin : auto 10px; 
+}
+
+.education .eduDetails{
+  position: absolute;
+  margin: auto 40px;
+  float: left;
+  height: 230px;
+  width: 250px;
+
+}
+.education .timeline .eduDetails .eduTitle{
+  margin: 10px auto;
+  font-size:14px;
+}
+
+.eduTitle ul{
+  list-style: none; 
+  margin: auto -40px;
+}
+.eduTitle .circle{
+  position: absolute;
+  margin: auto -38px;
+  background-color: white;  
+  height: 20px;
+  width: 20px;
+  border:3px solid black;
+  border-radius: 50%;
+}
+
+.eduTitle li:nth-child(1) span{
+  font-weight: bold;
+  font-size: ;
+}
+
+.eduTitle li:nth-child(2) span{
+  color:#6d695c;
+  font-weight: bold;
+}
+.BE li:nth-child(3) span{
+  font-weight: bold;
+}
+
+.experience{
+  margin: 225px 20px;
+}
+.experience .timeline .line{
+  height: 70px;
+}
+
+.certifications{
+  margin : -145px 20px;
+}
+.certifications .timeline .line{
+  height: 80px;
+}
+.links{
+  margin: 235px 20px;
+}
+.links .timeline .line{
+  height: 70px;
+}
+
+.eduTitle:hover .circle{
+
+background-color: gray;
+
+}
